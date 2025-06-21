@@ -1,7 +1,6 @@
 import CopyTextButton from "@/components/CopyTextButton";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Skeleton } from "@/components/ui/skeleton";
 import { getFilenames } from "@/lib/getFilenames";
 import {
   Globe,
@@ -82,7 +81,7 @@ export default async function Home() {
                 Our mission is simple: <strong>Educate</strong>,{" "}
                 <strong>Engage</strong>, and <strong>Execute</strong>. Our goal is
                 to execute events that educate students about marketing and
-                engage students to apply the knowledge they've learned.
+                engage students to apply the knowledge they&apos;ve learned.
               </p>
             </div>
             <div className="grid md:grid-cols-4 grid-cols-2 gap-4">

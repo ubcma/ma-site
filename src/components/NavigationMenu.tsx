@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Book, Menu, Sunset, Trees, Zap } from "lucide-react";
+import { ArrowUpRight, Menu } from "lucide-react";
 
 import {
   Accordion,
@@ -27,6 +27,7 @@ import {
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 interface MenuItem {
   title: string;
@@ -189,7 +190,7 @@ const NavBar = ({
           <div className="flex items-center gap-6">
             {/* Logo */}
             <Link href={logo.url} className="flex items-center gap-2">
-              <img src={logo.src} className="max-h-12" alt={logo.alt} />
+              <Image src={logo.src} height={48} width={48} alt={logo.alt} />
               <span className="text-lg font-bold text-white">{logo.title}</span>
             </Link>
           </div>
@@ -208,7 +209,7 @@ const NavBar = ({
           <div className="flex items-center justify-between mx-4">
             {/* Logo */}
             <a href={logo.url} className="flex items-center gap-2">
-              <img src={logo.src} className="max-h-8" alt={logo.alt} />
+              <Image src={logo.src} height={32} width={32} alt={logo.alt} />
             </a>
             <Sheet>
               <SheetTrigger asChild>
@@ -220,7 +221,7 @@ const NavBar = ({
                 <SheetHeader>
                   <SheetTitle>
                     <a href={logo.url} className="flex items-center gap-2">
-                      <img src={logo.src} className="max-h-8" alt={logo.alt} />
+                      <Image src={logo.src} height={32} width={32} alt={logo.alt} />
                     </a>
                   </SheetTitle>
                 </SheetHeader>

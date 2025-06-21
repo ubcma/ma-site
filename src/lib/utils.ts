@@ -11,6 +11,6 @@ export async function copyTextToClipboard(text: string) {
     await navigator.clipboard.writeText(text);
     toast.success('Copied to clipboard successfully!');
   } catch (err) {
-    toast.error('Failed to copy text');
+    toast.error('Failed to copy text' + err);
   }
 }

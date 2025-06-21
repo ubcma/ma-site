@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="md:col-span-2 col-span-1">
           <h4 className="text-sm uppercase mb-2 text-white/70">Contact Us</h4>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            UBC's only marketing focused club
+            {`UBC's only marketing focused club`}
           </h2>
 
           <Link
