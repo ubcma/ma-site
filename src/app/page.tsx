@@ -137,10 +137,10 @@ export default async function Home() {
         </section>
 
         <section id="studios" className="space-y-2 scroll-mt-48">
-          <div className="w-full flex flex-row items-start justify-between gap-16">
+          <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-4 lg:gap-16">
             <div className="flex flex-col items-start justify-center">
-              <h1 className="text-8xl font-bold"> UBCMA </h1>
-              <h1 className="text-8xl font-bold text-ma-red"> Studios </h1>
+              <h1 className="text-6xl lg:text-8xl font-bold"> UBCMA </h1>
+              <h1 className="text-6xl lg:text-8xl font-bold text-ma-red"> Studios </h1>
             </div>
             <div className="flex flex-col items-start justify-center">
               <p>

@@ -179,9 +179,9 @@ const NavBar = ({
       className={`py-4 flex items-center justify-center transition-colors duration-500 ${
         isHome
           ? scrolled
-            ? "lg:bg-ma-red backdrop-blur-lg shadow-md"
-            : "lg:bg-transparent lg:text-white"
-          : "lg:bg-ma-red/80 backdrop-blur-lg shadow-md"
+            ? "lg:bg-ma-red bg-ma-red/80 backdrop-blur-lg shadow-md"
+            : "lg:bg-transparent "
+          : "lg:bg-ma-red bg-ma-red/80 backdrop-blur-lg shadow-md"
       }`}
     >
       <div className="w-full justify-between">
