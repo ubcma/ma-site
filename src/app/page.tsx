@@ -1,11 +1,14 @@
 import CopyTextButton from "@/components/CopyTextButton";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { getFilenames } from "@/lib/getFilenames";
 import {
+  ArrowRight,
   Globe,
   GraduationCap,
   Handshake,
+  PencilRulerIcon,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,13 +26,17 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-left lg:px-24 px-8">
         <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-          UBC Marketing Association
+          UBC’s #1 Marketing Association
         </h1>
         <p className="text-xl  md:text-2xl mb-6 text-neutral-100">
-          Marketing starts here.
+          Building Canada’s next generation of bold marketers.
         </p>
         <div className="flex flex-row gap-2">
-          <Link href="https://app.ubcma.ca/maintenance" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://app.ubcma.ca/maintenance"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               className="bg-ma-red hover:bg-ma-red hover:brightness-90"
@@ -64,7 +71,27 @@ export default async function Home() {
     <div>
       <HeroSection />
 
-      <div className="lg:mx-48 mx-8 my-48 space-y-32">
+      <div className="lg:mx-40 mx-8 my-24 space-y-24">
+        <section id="email-list" className="w-full h-fit rounded-lg">
+          <h3 className="text-xl md:text-2xl font-semibold mb-1">
+            Real Opportunities, right to your inbox.
+          </h3>
+          <p className="text-lg">
+            Sign up and be the first to hear about events, job opportunities,
+            and marketing updates!
+          </p>
+          <div className="flex flex-row gap-2 mt-4">
+            <Input
+              type="email"
+              placeholder="Enter your email"
+              className="w-96 bg-white"
+            />
+            <Button className="bg-ma-red hover:bg-ma-red hover:brightness-90">
+              <ArrowRight className="text-white w-4 h-4" />
+            </Button>
+          </div>
+        </section>
+
         <section id="our-mission" className="scroll-mt-48">
           <div className="container mx-auto space-y-8">
             <div className="space-y-4">
@@ -72,47 +99,79 @@ export default async function Home() {
                 Our Mission
               </h2>
               <p className="text-md lg:text-lg text-primary">
-                The UBC Marketing Association is dedicated to empowering
-                students with the skills and knowledge needed to excel in the
-                field of marketing. We provide a platform for learning,
-                networking, and professional development.
+                The University of British Columbia Marketing Association (UBCMA)
+                is dedicated to empowering the next generation of bold marketers
+                through education, connection, and real-world experience.
               </p>
               <p className="text-md lg:text-lg text-primary">
                 Our mission is simple: <strong>Educate</strong>,{" "}
-                <strong>Engage</strong>, and <strong>Execute</strong>. Our goal is
-                to execute events that educate students about marketing and
-                engage students to apply the knowledge they&apos;ve learned.
+                <strong>Engage</strong>, and <strong>Execute</strong>. Whether
+                you're a curious student or an expert marketer, UBCMA is where
+                you’ll find the opportunities, tools, and people to make it
+                happen—and have fun while doing it.
               </p>
             </div>
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
-              <Image
-                src="/image/mission-1.jpeg"
-                alt="UBC Marketing Association Team"
-                width={500}
-                height={500}
-                className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover rotate-1"
-              />
-              <Image
-                src="/image/mission-2.jpg"
-                alt="UBC Marketing Association Team"
-                width={500}
-                height={500}
-                className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover -rotate-1"
-              />
-              <Image
-                src="/image/mission-3.jpg"
-                alt="UBC Marketing Association Team"
-                width={500}
-                height={500}
-                className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover rotate-1"
-              />
-              <Image
-                src="/image/mission-4.jpg"
-                alt="UBC Marketing Association Team"
-                width={500}
-                height={500}
-                className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover -rotate-1"
-              />
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-4 h-80">
+              <div className="relative">
+                <div className="absolute flex flex-col justify-end p-4 text-white z-10 bg-gradient-to-b from-black-0 to-black w-full h-full rounded-lg">
+                  <h3 className="flex flex-row gap-2 text-lg font-semibold">
+                    {" "}
+                    <GraduationCap /> Educate
+                  </h3>
+                  <p className="text-sm text-gray-100">
+                    We equip students with cutting-edge industry knowledge,
+                    practical skills, and insights that go beyond the classroom.
+                  </p>
+                </div>
+                <Image
+                  src="/image/mission-1.jpeg"
+                  alt="UBC Marketing Association Team"
+                  width={500}
+                  height={500}
+                  className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover"
+                />
+              </div>
+              <div className="relative">
+                <div className="absolute flex flex-col justify-end p-4 text-white z-10 bg-gradient-to-b from-black-0 to-black w-full h-full rounded-lg">
+                  <h3 className="flex flex-row gap-2 text-lg font-semibold">
+                    {" "}
+                    <Handshake /> Engage
+                  </h3>
+                  <p className="text-sm text-gray-100">
+                    We build a tight-knit, supportive community where students
+                    can network, collaborate, and grow together through
+                    meaningful relationships.
+                  </p>
+                </div>
+                <Image
+                  src="/image/mission-2.jpg"
+                  alt="UBC Marketing Association Team"
+                  width={500}
+                  height={500}
+                  className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover"
+                />
+              </div>
+              <div className="relative">
+                <div className="absolute flex flex-col justify-end p-4 text-white z-10 bg-gradient-to-b from-black-0 to-black w-full h-full rounded-lg">
+                  <h3 className="flex flex-row gap-2 text-lg font-semibold">
+                    {" "}
+                    <PencilRulerIcon /> Execute
+                  </h3>
+                  <p className="text-sm text-gray-100">
+                    We create opportunities to apply learning in real-time
+                    through premier conferences, exclusive networking socials,
+                    high-stakes case competitions, and hands-on projects that
+                    bridge theory and practice.
+                  </p>
+                </div>
+                <Image
+                  src="/image/mission-3.jpg"
+                  alt="UBC Marketing Association Team"
+                  width={500}
+                  height={500}
+                  className="w-auto h-auto aspect-square bg-gray-200 rounded-lg object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -140,7 +199,10 @@ export default async function Home() {
           <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-4 lg:gap-16">
             <div className="flex flex-col items-start justify-center">
               <h1 className="text-6xl lg:text-8xl font-bold"> UBCMA </h1>
-              <h1 className="text-6xl lg:text-8xl font-bold text-ma-red"> Studios </h1>
+              <h1 className="text-6xl lg:text-8xl font-bold text-ma-red">
+                {" "}
+                Studios{" "}
+              </h1>
             </div>
             <div className="flex flex-col items-start justify-center">
               <p>
