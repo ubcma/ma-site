@@ -29,7 +29,7 @@ const HeroSection = () => {
           Marketing starts here.
         </p>
         <div className="flex flex-row gap-2">
-          <Link href="https://app.ubcma.ca/maintenance" target="_blank" rel="noopener noreferrer">
+          <Link href="https://app.ubcma.ca/" target="_blank" rel="noopener noreferrer">
             <Button
               size="lg"
               className="bg-ma-red hover:bg-ma-red hover:brightness-90"

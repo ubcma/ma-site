@@ -59,7 +59,7 @@ interface Navbar1Props {
 
 const MembershipPortalButton = () => {
   return (
-    <Link href="https://app.ubcma.ca/maintenance" target="_blank" rel="noopener noreferrer">
+    <Link href="https://app.ubcma.ca/" target="_blank" rel="noopener noreferrer">
       <Button
         size="sm"
         variant="outline"
@@ -237,7 +237,7 @@ const NavBar = ({
                   <hr></hr>
 
                   <Link
-                    href="https://app.ubcma.ca/maintenance"
+                    href="https://app.ubcma.ca/"
                     className="font-semibold flex flex-row gap-1"
                     target="_blank"
                     rel="noopener noreferrer"
