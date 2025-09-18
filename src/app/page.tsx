@@ -23,10 +23,10 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-left lg:px-24 px-8">
         <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-          UBC Marketing Association
+          UBC’s #1 Marketing Association
         </h1>
         <p className="text-xl  md:text-2xl mb-6 text-neutral-100">
-          Marketing starts here.
+         Building Canada’s next generation of bold marketers.
         </p>
         <div className="flex flex-row gap-2">
           <Link href="https://app.ubcma.ca/" target="_blank" rel="noopener noreferrer">
@@ -72,16 +72,19 @@ export default async function Home() {
                 Our Mission
               </h2>
               <p className="text-md lg:text-lg text-primary">
-                The UBC Marketing Association is dedicated to empowering
-                students with the skills and knowledge needed to excel in the
-                field of marketing. We provide a platform for learning,
-                networking, and professional development.
+              The University of British Columbia Marketing Association (UBCMA) is dedicated to empowering the next generation of bold marketers through education, connection, and real-world experience.
+              </p>
+              <p className="text-md lg:text-lg text-primary mb-6">
+                Our mission is simple: 
               </p>
               <p className="text-md lg:text-lg text-primary">
-                Our mission is simple: <strong>Educate</strong>,{" "}
-                <strong>Engage</strong>, and <strong>Execute</strong>. Our goal is
-                to execute events that educate students about marketing and
-                engage students to apply the knowledge they&apos;ve learned.
+              <strong>Educate</strong> - We equip students with cutting-edge industry knowledge, practical skills, and insights that go beyond the classroom.
+              </p>
+              <p className="text-md lg:text-lg text-primary">
+              <strong>Engage</strong> - We build a tight-knit, supportive community where students can network, collaborate, and grow together through meaningful relationships.
+              </p>          
+              <p className="text-md lg:text-lg text-primary">
+              <strong>Execute</strong> - We create opportunities to apply learning in real-time through premier conferences, exclusive networking socials, high-stakes case competitions, and hands-on projects that bridge theory and practice.
               </p>
             </div>
             <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
