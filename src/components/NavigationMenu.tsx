@@ -84,6 +84,7 @@ const NavBar = ({
     { title: "Partners", url: "/#partners" },
     { title: "Studios", url: "/#studios" },
     { title: "Contact", url: "/#contact" },
+    {title: "Team", url: "/team"},
     // {
     //   title: "Products",
     //   url: "#",
