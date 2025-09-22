@@ -9,7 +9,7 @@ interface ProfileProps {
 
 const Profile = ({ name, imageURL, bio, role }: ProfileProps) => {
   return (
-    <div className="flex flex-col items-center text-center space-y-4 p-6 bg-white rounded-lg shadow-sm border border-neutral-100 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-out cursor-pointer">
+    <div className="flex flex-col items-center text-center space-y-4 p-6 bg-white rounded-lg shadow-sm border border-neutral-100 hover:shadow-lg hover:scale-105 transition-all duration-300 ease-out cursor-pointer w-full md:w-[30%]">
       <div className="relative w-32 h-32 rounded-full overflow-hidden bg-gray-200">
         <Image
           src={imageURL}
@@ -29,7 +29,7 @@ const Profile = ({ name, imageURL, bio, role }: ProfileProps) => {
           {role}
         </p>
         
-        <p className="text-sm text-neutral-600 leading-relaxed max-w-xs">
+        <p className="text-sm text-neutral-600 leading-relaxed">
           {bio}
         </p>
       </div>
