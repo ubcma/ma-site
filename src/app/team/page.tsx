@@ -69,7 +69,7 @@ export default function Team() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-b from-ma-red/5 to-white py-24">
+      <div className="bg-gradient-to-b from-ma-red/5 to-white py-48">
         <div className="lg:mx-48 mx-8 pt-24">
           <div className="text-center space-y-6">
             <h1 className="text-4xl lg:text-6xl font-bold text-black">
@@ -84,7 +84,7 @@ export default function Team() {
       </div>
 
       {/* Team Members */}
-      <div className="lg:mx-48 mx-8 my-24">
+      <div className="lg:mx-48 mx-8 mb-24">
         <div className="space-y-16">
           {portfolios.map((portfolio) => {
             // Get all members for this portfolio
@@ -101,7 +101,7 @@ export default function Team() {
                   {portfolio.name}
                 </h2>
                 
-                <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 justify-items-center">
+                <div className="flex flex-wrap gap-8 justify-center">
                   {portfolioMembers.map((member) => (
                     <Profile
                       key={member.name}
