@@ -3,7 +3,7 @@
     "name": "Chloe Oh",
     "file-name": "chloe-oh.jpeg",
     "bio": "Hi everyone! My name is Chloe and I am a fourth-year Marketing student! In my spare time, I love to check out new restaurants in Vancouver (certified foodie), trying out new workout classes, and cooking! If you see me around, feel free to stop by and say hi!!",
-    "role": "Vice President Internal"
+    "role": "VP Internal"
   },
   {
     "name": "Ryan Liu",
@@ -15,7 +15,7 @@
     "name": "Madison Lee",
     "file-name": "madison-lee.jpg",
     "bio": "Hiii I'm Maddy, a third-year marketing student. When I'm not deep into a k-drama binge, you'll probably catch me hunting down the latest foodie trends or vlogging like a wannabe influencer. Always down to chat over something sweet (especially if it's got pearls)! <3",
-    "role": "Vice President Events"
+    "role": "VP Events"
   },
   {
     "name": "Vanessa Kwan",
@@ -45,19 +45,19 @@
     "name": "Neal Sian",
     "file-name": "neal-sian.jpg",
     "bio": "Hi! I'm Neal, a third-year student at Sauder. When I'm not studying, I love spending time with friends and family, and I'm especially passionate about playing sports, soccer being my favorite! I'm always on the hunt for new music, so feel free to send me your top recommendations!",
-    "role": "Vice President Corporate Relations"
+    "role": "VP Corporate Relations"
   },
   {
     "name": "Sakura Gibson",
     "file-name": "sakura-gibson.jpg",
     "bio": "Hi! I'm Sakura, a 4th year Sauder student specializing in Marketing with a concentration in Business Analytics. In my spare time, you'll find me making spotify playlists, trying new restaurants, or binging true crime tv series. I'm also always looking for new cafes, so if you know any hidden gems or just want to chat over a latte, I'm in!",
-    "role": "Vice President Marketing"
+    "role": "VP Marketing"
   },
   {
     "name": "Susie Lee",
     "file-name": "susie-lee.jpg",
     "bio": "Hey! My name is Susie, a 5th year Sauder student specialized in Marketing :) I love spending time outside, whether it's playing pickle ball or rotting on the beach. If you know me, you know I will also never say no to a sweet treat… EVER. I love to yap, so feel free to reach out!",
-    "role": "Vice President Internal"
+    "role": "VP Internal"
   },
   {
     "name": "Angela Liu",
@@ -87,7 +87,7 @@
     "name": "Ariana Zhassuzak",
     "file-name": "ariana-zhassuzak.jpg",
     "bio": "Hi! I'm Ariana and I'm a 3rd year at Sauder. In my free time I love working out, reading books (mystery thrillers are my fave), and trying the almond croissants from new cafes.",
-    "role": "Vice President Studios"
+    "role": "VP Studios"
   },
   {
     "name": "Emily Cheng",
@@ -123,7 +123,7 @@
     "name": "Carter Van Unen",
     "file-name": "carter-van-unen.jpg",
     "bio": "Hi, I'm Carter, a third-year finance student at UBC Sauder. In my free time, you can find me out biking, hiking, and exploring Vancouver, or combing through Spotify to find some new music to listen to. Feel free to reach out and connect!",
-    "role": "Vice President Finance"
+    "role": "VP Finance"
   },
   {
     "name": "David Chen",
@@ -201,6 +201,6 @@
     "name": "Ethan Hansen",
     "file-name": "ethan-hansen.png",
     "bio": "Hey! I'm Ethan, a 6th (don't ask) year BUCS student. When I'm not busy with work, I enjoy cooking, listening to new music, and going for hikes. I'm always open to chatting so feel free to connect!",
-    "role": "Vice President Tech"
+    "role": "VP Tech"
   }
 ]

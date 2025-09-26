@@ -18,31 +18,31 @@ export default function Team() {
     },
     {
       name: "Marketing Portfolio",
-      roles: ["Vice President Marketing", "Design Director", "Visual Media Director", "Marketing Director"]
+      roles: ["VP Marketing", "Design Director", "Visual Media Director", "Marketing Director"]
     },
     {
       name: "Corporate Relations Portfolio", 
-      roles: ["Vice President Corporate Relations", "Corporate Relations Director", "Partnerships Director"]
+      roles: ["VP Corporate Relations", "Corporate Relations Director", "Partnerships Director"]
     },
     {
       name: "Events Portfolio",
-      roles: ["Vice President Events", "Logistics Director"]
+      roles: ["VP Events", "Logistics Director"]
     },
     {
       name: "Tech Portfolio",
-      roles: ["Vice President Tech", "Tech Director"]
+      roles: ["VP Tech", "Tech Director"]
     },
     {
       name: "Finance Portfolio",
-      roles: ["Vice President Finance"]
+      roles: ["VP Finance"]
     },
     {
       name: "Internal Portfolio",
-      roles: ["Vice President Internal"]
+      roles: ["VP Internal"]
     },
     {
       name: "Studios Portfolio",
-      roles: ["Vice President Studios", "Studios Director"]
+      roles: ["VP Studios", "Studios Director"]
     },
     {
       name: "Advisors",
