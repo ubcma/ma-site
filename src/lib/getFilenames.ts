@@ -8,3 +8,11 @@ export async function getFilenames() {
     .map(file => file.name);
   return filenames;
 }
+
+export async function getEventIcons() {
+  const dirPath = path.join(process.cwd(), 'public/image/home-page/event-icons');
+  const filenames = fs.readdirSync(dirPath, { withFileTypes: true })
+    .filter(file => file.isFile())
+    .map(file => file.name);
+  return filenames;
+}
