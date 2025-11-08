@@ -83,8 +83,8 @@ const NavBar = ({
   menu = [
     { title: "About", url: "/about" },
     {title: "Team", url: "/team"},
-    { title: "Studios", url: "/#studios" },
-    { title: "Contact", url: "/#contact" },
+    { title: "Studios", url: "/studios" },
+    { title: "Contact", url: "/#footer" },
     // {
     //   title: "Products",
     //   url: "#",
@@ -196,7 +196,7 @@ const NavBar = ({
           </div>
           </div>
           <AnimatePresence>
-            {scrolled && (  
+            {(scrolled || !isHome) && (  
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
