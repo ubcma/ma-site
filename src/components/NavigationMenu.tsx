@@ -84,7 +84,7 @@ const NavBar = ({
     { title: "About", url: "/about" },
     {title: "Team", url: "/team"},
     { title: "Studios", url: "/studios" },
-    { title: "Contact", url: "/#footer" },
+    // { title: "Contact", url: "/#footer" },
     // {
     //   title: "Products",
     //   url: "#",

@@ -37,7 +37,7 @@ const StudiosSection = () => {
          }}
          src="/image/home-page/studio-icons/subuhd-12 1.png"
          alt="Studio Icon"
-         className="absolute -left-30 -bottom-35 w-[550px] object-contain z-20"
+         className="absolute -left-30 -bottom-35 lg:w-[550px] w-[400px] object-contain z-20"
         >
         </motion.img>
 
@@ -51,7 +51,7 @@ const StudiosSection = () => {
           }}
           src="/image/home-page/studio-icons/asuyausyus-12 1.png"
           alt="Studio Icon"
-          className="absolute -right-30 -top-30 w-[500px] object-contain z-20"
+          className="absolute -right-30 -top-30 lg:w-[550px] w-[400px] object-contain z-20"
         >
         </motion.img>
         
@@ -91,7 +91,7 @@ const StudiosSection = () => {
           <Link href="/studios">
             <Button
               size="lg"
-              className="lg:px-12 lg:py-8 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-ma-red/50 hover:brightness-90 font-bold rounded-[90px]"
+              className="lg:px-12 lg:py-8 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-[#c41f3a] hover:brightness-90 font-bold rounded-[90px]"
             >
               Learn More
             </Button>

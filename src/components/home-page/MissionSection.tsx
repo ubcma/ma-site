@@ -50,7 +50,7 @@ const MissionSection = () => {
               <div className="flex h-full w-full items-end justify-center absolute z-10 text-white text-5xl font-bold pb-4 group-hover:opacity-0 transition-opacity duration-100">
                 {card.title}
               </div>
-              <div className="absolute inset-0 z-10 flex items-start justify-center p-10 text-white text-left text-lg font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 z-10 flex items-start justify-center p-6 lg:p-10 text-white text-left lg:text-lg text-md font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div dangerouslySetInnerHTML={{ __html: card.description }} />
               </div>
               <div className="absolute inset-0 z-1 bg-gradient-to-b from-ma-red/0 to-ma-red/80 group-hover:from-black/60 group-hover:to-black/80 rounded-2xl transition-all duration-300" />

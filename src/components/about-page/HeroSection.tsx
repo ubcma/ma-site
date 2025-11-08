@@ -8,15 +8,17 @@ const HeroSection = () => {
   return (
     <main className="relative flex min-h-screen flex-col items-start justify-end py-24 text-white overflow-hidden shadow-xl">
       <div
-        className="absolute inset-0 bg-cover bg-center top-10"
-        style={{
-          backgroundImage: "url('/image/about-page/about-bg.png')",
-        }}
+        className="
+    absolute inset-0 bg-cover bg-no-repeat top-10 
+    bg-[url('/image/about-page/about-bg.png')] 
+    bg-[position:calc(85%)_center]  
+    md:bg-right-center                     
+  "
       />
 
       <div className="relative z-10 text-left w-full px-8 lg:px-32 ">
         <div className="flex flex-col justify-between items-start gap-8">
-          <motion.h1 
+          <motion.h1
             className="tracking-tight text-left text-5xl md:text-6xl lg:text-9xl font-black"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -24,14 +26,14 @@ const HeroSection = () => {
           >
             Who We Are
           </motion.h1>
-          <motion.p 
-              className="text-xl text-left mb-6 font-bold"
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            >
+          <motion.p
+            className="text-xl text-left mb-6 font-bold"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+          >
             UBC’s Premier Marketing Community Since 1995
-            </motion.p>
+          </motion.p>
         </div>
       </div>
 

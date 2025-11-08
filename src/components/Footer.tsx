@@ -14,7 +14,7 @@ export default function Footer() {
             {`Have a question, idea, or opportunity?`}
           </h2>
 
-          <p className="text-sm uppercase text-white/70 mb-2 mt-6">
+          <p className="text-sm text-white/70 mb-2 mt-6">
             We're all ears. Reach out to the right team here and we'll get back to you soon!
           </p>
         </div>
@@ -27,7 +27,7 @@ export default function Footer() {
               className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 rounded-full text-sm font-medium cursor-pointer hover:bg-white/30 transition-colors duration-200"
               onClick={() => copyTextToClipboard("hello@ubcma.ca")}
               >
-              Students
+              For Students
               <Copy className="w-4 h-4" />
               </button>
             </li>
@@ -36,7 +36,7 @@ export default function Footer() {
               className="inline-flex items-center whitespace-nowrap gap-2 px-4 py-2 bg-white/20 rounded-full text-sm font-medium cursor-pointer hover:bg-white/30 transition-colors duration-200"
               onClick={() => copyTextToClipboard("corporaterelations@ubcma.ca")}
               >
-              Partners & Sponsors
+              For Partners & Sponsors
               <Copy className="w-4 h-4" />
               </button>
             </li>
@@ -45,7 +45,7 @@ export default function Footer() {
               className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 rounded-full text-sm font-medium cursor-pointer hover:bg-white/30 transition-colors duration-200"
               onClick={() => copyTextToClipboard("studios@ubcma.ca")}
               >
-              Studios
+              For Studios
               <Copy className="w-4 h-4" />
               </button>
             </li>

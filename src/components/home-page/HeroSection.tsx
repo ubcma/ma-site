@@ -14,10 +14,10 @@ const HeroSection = () => {
         }}
       />
 
-      <div className="relative z-10 text-left w-full px-8 lg:px-32 ">
-        <div className="flex flex-col md:flex-row justify-between items-end gap-16">
+      <div className="relative z-10 text-left w-full px-8 lg:px-32">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 md:gap-16">
           <motion.h1 
-            className="tracking-tight text-right md:text-left text-5xl md:text-6xl lg:text-9xl font-black"
+            className="tracking-tight text-left text-5xl md:text-6xl lg:text-9xl font-black"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -25,9 +25,9 @@ const HeroSection = () => {
             UBC Marketing<br /> Association
           </motion.h1>
           
-          <div className="flex flex-col justify-between mb-4">
+          <div className="flex flex-col items-start md:items-end justify-between mb-4">
             <motion.p 
-              className="text-xl text-right mb-6 font-bold w-[328px]"
+              className="text-xl text-left md:text-right mb-6 font-bold w-[328px]"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
@@ -35,7 +35,7 @@ const HeroSection = () => {
             Building Canada's next generation of bold marketers.
             </motion.p>
             <motion.div 
-              className="flex flex-row justify-end gap-2"
+              className="flex flex-row justify-start gap-2"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -43,7 +43,7 @@ const HeroSection = () => {
               <Link href="https://app.ubcma.ca/" target="_blank" rel="noopener noreferrer">
                 <Button
                   size="lg"
-                  className="lg:px-12 lg:py-8 px-8 py-6 text-ma-red lg:text-3xl text-xl bg-white hover:bg-white/50 hover:brightness-90 font-bold rounded-[90px]"
+                  className="lg:px-12 lg:py-8 px-8 py-6 text-ma-red lg:text-3xl text-xl bg-white hover:bg-[#f3dee2] hover:brightness-90 font-bold rounded-[90px]"
                 >
                   Become a Member
                 </Button>
