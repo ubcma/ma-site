@@ -31,7 +31,7 @@ const RequestConsultationSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
               >
-              <span className="font-bold">Powered by UBCMA</span>, Studios is UBC's premier student-led marketing consultancy. We empower brands through playful and effective marketing strategies that break traditional norms.
+              <span className="font-bold">Powered by UBCMA</span>, Studios is UBC&apos;s premier student-led marketing consultancy. We empower brands through playful and effective marketing strategies that break traditional norms.
               </motion.p>
               <motion.div 
                 className="flex flex-row justify-end gap-2"

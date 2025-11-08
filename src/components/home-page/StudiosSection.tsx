@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
@@ -85,7 +84,7 @@ const StudiosSection = () => {
           Powered by <span className="text-ma-red">UBCMA</span>
         </motion.h3>
         <motion.p className="text-white md:text-2xl text-sm font-regular text-center md:w-[500px] w-full px-8">
-          Studios is UBC's <span className="italic font-bold">premier student-led marketing consultancy</span>. We empower brands through playful and effective marketing strategies that break traditional norms.
+          Studios is UBC&apos;s <span className="italic font-bold">premier student-led marketing consultancy</span>. We empower brands through playful and effective marketing strategies that break traditional norms.
         </motion.p>
         <motion.div>
           <Link href="/studios">

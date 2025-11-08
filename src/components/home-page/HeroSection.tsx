@@ -32,7 +32,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
-            Building Canada's next generation of bold marketers.
+            Building Canada&apos;s next generation of bold marketers.
             </motion.p>
             <motion.div 
               className="flex flex-row justify-start gap-2"

@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
@@ -64,7 +63,7 @@ const CultureSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
               >
-                Whether you're pitching in a boardroom, celebrating at a social, or building your career alongside lifelong friends, MAFAM is here to celebrate your wins, support your grind, and remind you that <span className="italic font-bold">success is best shared</span>.              
+                Whether you&apos;re pitching in a boardroom, celebrating at a social, or building your career alongside lifelong friends, MAFAM is here to celebrate your wins, support your grind, and remind you that <span className="italic font-bold">success is best shared</span>.              
               </motion.p>
               <motion.p 
                 className="md:text-xl text-sm"
@@ -72,7 +71,7 @@ const CultureSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
               >
-                We're not just a club. <span className="italic font-bold">We're a culture. A family.</span>
+                We&apos;re not just a club. <span className="italic font-bold">We&apos;re a culture. A family.</span>
               </motion.p>
             </div>
           </div>

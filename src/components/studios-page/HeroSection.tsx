@@ -1,8 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import Image from "next/image";
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";

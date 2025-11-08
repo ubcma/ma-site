@@ -1,7 +1,7 @@
 "use client";
 
 import { copyTextToClipboard } from "@/lib/utils";
-import { ArrowUpRight, Copy } from "lucide-react";
+import { Copy } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -15,7 +15,7 @@ export default function Footer() {
           </h2>
 
           <p className="text-sm text-white/70 mb-2 mt-6">
-            We're all ears. Reach out to the right team here and we'll get back to you soon!
+            {`We're all ears. Reach out to the right team here and we'll get back to you soon!`}
           </p>
         </div>
 

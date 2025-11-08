@@ -7,7 +7,6 @@ import StatementSection from "@/components/home-page/StatementSection";
 import MissionSection from "@/components/home-page/MissionSection";
 import NumbersSection from "@/components/home-page/NumbersSection";
 import EventsSection from "@/components/home-page/EventsSection";
-import InboxSection from "@/components/home-page/InboxSection";
 import PartnersSection from "@/components/home-page/PartnersSection";
 import StudiosSection from "@/components/home-page/StudiosSection";
 

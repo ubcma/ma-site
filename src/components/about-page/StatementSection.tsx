@@ -19,7 +19,7 @@ const StatementSection = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              The University of British Columbia Marketing Association (UBCMA) is UBC's <span className="italic text-ma-red">premier marketing community</span> bringing together 400+ students from all faculties who share a passion for marketing.
+              The University of British Columbia Marketing Association (UBCMA) is UBC&apos;s <span className="italic text-ma-red">premier marketing community</span> bringing together 400+ students from all faculties who share a passion for marketing.
             </motion.div>
           </div>
         </div>

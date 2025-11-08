@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";

@@ -1,10 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { motion } from "motion/react";
-
-
 export default function VideoSection() {
     return (
         <section id="video">
@@ -27,10 +22,10 @@ export default function VideoSection() {
                         More than just a club
                     </h1>
                     <p>
-                    Since <span className="italic font-bold">1995</span>, we've been the launchpad for students who want more than just textbook knowledge. We're where theory meets practice, where ambition meets opportunity, and where curiosity meets community.
+                    Since <span className="italic font-bold">1995</span>, we&apos;ve been the launchpad for students who want more than just textbook knowledge. We&apos;re where theory meets practice, where ambition meets opportunity, and where curiosity meets community.
                     </p>
                     <p>
-                    From hosting <span className="italic font-bold">Western Canada's largest marketing conference</span> to running UBC's only <span className="italic font-bold">student-led marketing consultancy</span>, UBCMA is where you'll find the tools, connections, and experiences to launch your marketing career—and have a damn good time doing it.
+                    From hosting <span className="italic font-bold">Western Canada&apos;s largest marketing conference</span> to running UBC&apos;s only <span className="italic font-bold">student-led marketing consultancy</span>, UBCMA is where you&apos;ll find the tools, connections, and experiences to launch your marketing career—and have a damn good time doing it.
 
                     </p>
 
