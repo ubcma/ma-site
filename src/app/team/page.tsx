@@ -70,7 +70,7 @@ export default function Team() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="bg-gradient-to-b from-ma-red/5 to-white py-">
-        <div className="lg:mx-48 mx-8 pt-24">
+        <div className="lg:mx-48 mx-8 pt-48 pb-24">
           <div className="text-center space-y-6">
             <h1 className="text-4xl lg:text-6xl font-bold text-black">
               Meet Our <span className="text-ma-red">Team</span>

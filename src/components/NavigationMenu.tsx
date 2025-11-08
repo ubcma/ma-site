@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowUpRight, Menu } from "lucide-react";
+import { motion, AnimatePresence } from "motion/react";
 
 import {
   Accordion,
@@ -63,7 +64,7 @@ const MembershipPortalButton = () => {
       <Button
         size="sm"
         variant="outline"
-        className="text-ma-red hover:text-ma-red hover:brightness-90 group gap-1"
+        className="text-ma-red hover:text-ma-red hover:brightness-90 group gap-1 rounded-[90px]"
       >
         Membership Portal{" "}
         <ArrowUpRight className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200" />
@@ -80,11 +81,10 @@ const NavBar = ({
     title: "ubcma",
   },
   menu = [
-    { title: "Our Mission", url: "/#our-mission" },
-    { title: "Partners", url: "/#partners" },
-    { title: "Studios", url: "/#studios" },
-    { title: "Contact", url: "/#contact" },
+    { title: "About", url: "/about" },
     {title: "Team", url: "/team"},
+    { title: "Studios", url: "/studios" },
+    // { title: "Contact", url: "/#footer" },
     // {
     //   title: "Products",
     //   url: "#",
@@ -177,32 +177,36 @@ const NavBar = ({
 
   return (
     <section
-      className={`py-4 flex items-center justify-center transition-colors duration-500 ${
-        isHome
-          ? scrolled
-            ? "lg:bg-ma-red bg-ma-red/80 backdrop-blur-lg shadow-md"
-            : "lg:bg-transparent "
-          : "lg:bg-ma-red bg-ma-red/80 backdrop-blur-lg shadow-md"
-      }`}
+      className={"py-4 flex items-center justify-center transition-colors duration-500 lg:bg-ma-red bg-ma-red/80 backdrop-blur-lg shadow-md"}
     >
       <div className="w-full justify-between">
         {/* Desktop Menu */}
         <nav className="hidden justify-between lg:flex items-center mx-16">
-          <div className="flex items-center gap-6">
+          <div className="flex gap-6 w-full">
             {/* Logo */}
             <Link href={logo.url} className="flex items-center gap-2">
               <Image src={logo.src} height={48} width={48} alt={logo.alt} />
-              <span className="text-lg font-bold text-white">{logo.title}</span>
             </Link>
-          </div>
-          <div className="flex items-center">
+            <div className="flex items-center">
             <NavigationMenu>
               <NavigationMenuList>
                 {menu.map((item) => renderMenuItem(item))}
               </NavigationMenuList>
             </NavigationMenu>
           </div>
-          <MembershipPortalButton />
+          </div>
+          <AnimatePresence>
+            {(scrolled || !isHome) && (  
+              <motion.div
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 20 }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+              >
+                <MembershipPortalButton />
+              </motion.div>
+            )}
+          </AnimatePresence>
         </nav>
 
         {/* Mobile Menu */}
