@@ -9,6 +9,7 @@ import NumbersSection from "@/components/home-page/NumbersSection";
 import EventsSection from "@/components/home-page/EventsSection";
 import PartnersSection from "@/components/home-page/PartnersSection";
 import StudiosSection from "@/components/home-page/StudiosSection";
+import InboxSection from "@/components/home-page/InboxSection";
 
 export default async function Home() {
   const filenames = await getFilenames();
@@ -49,6 +50,7 @@ export default async function Home() {
              ))}
            </Marquee>
        </section>
+       <InboxSection />
 
       {/* Will enable inbox section once api logic for persisting email subscribers is created */}
       {/* <InboxSection /> */}

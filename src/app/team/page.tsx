@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import Profile from "@/components/Profile";
+import HeroSection from "@/components/team-page/HeroSection";
+import StatementSection from "@/components/team-page/StatementSection";
 import teamData from "@/constants/team.json";
 
 interface TeamMember {
@@ -69,19 +71,8 @@ export default function Team() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-b from-ma-red/5 to-white py-">
-        <div className="lg:mx-48 mx-8 pt-48 pb-24">
-          <div className="text-center space-y-6">
-            <h1 className="text-4xl lg:text-6xl font-bold text-black">
-              Meet Our <span className="text-ma-red">Team</span>
-            </h1>
-            <p className="text-lg lg:text-xl text-neutral-600 max-w-3xl mx-auto">
-              Get to know the passionate individuals who make the UBC Marketing Association 
-              a thriving community for students to learn, grow, and excel in marketing.
-            </p>
-          </div>
-        </div>
-      </div>
+      <HeroSection />
+      <StatementSection />
 
       {/* Team Members */}
       <div className="lg:mx-48 mx-8 mb-24">
