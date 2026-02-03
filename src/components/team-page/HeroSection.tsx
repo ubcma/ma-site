@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div
         className="
     absolute inset-0 bg-cover bg-no-repeat top-10 
-    bg-[url('/image/team-page/team-bg.png')] 
+    bg-[url('/image/team-page/team-bg.jpg')] 
     bg-[position:calc(85%)_center]  
     md:bg-right-center                     
   "
@@ -35,9 +35,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="absolute inset-0 z-1 bg-gradient-to-b from-ma-red/0 to-ma-red/90 " />
+      <div className="absolute bottom-0 left-0 right-0 h-1/2 z-1 bg-gradient-to-b from-ma-red/0 to-ma-red/70" />
       {/* <div className="absolute inset-0 z-1 bg-gradient-to-b from-black/30 to-black/50 " /> */}
-      <div className="absolute inset-0 z-0 bg-ma-red/30 backdrop-blur-xl [mask-image:linear-gradient(to_top,black,transparent)]" />
+      <div className="absolute bottom-0 left-0 right-0 h-1/2 z-0 bg-ma-red/70 backdrop-blur-xl [mask-image:linear-gradient(to_top,black,transparent)]" />
     </main>
   );
 };
