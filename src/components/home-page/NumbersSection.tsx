@@ -10,15 +10,15 @@ const NumbersSection = () => {
 
   const stats = [
     {
-      number: "400+",
+      number: "300+",
       description: '<span class="italic font-bold">active members</span> from all faculties leveling up their marketing game',
     },
     {
-      number: "300+",
+      number: "40+",
       description: '<span class="italic font-bold">job postings</span> on our member exclusive job portal',
     },
     {
-      number: "39",
+      number: "42",
       description: '<span class="italic font-bold">execs</span> across <span class="italic font-bold text-ma-red">10 unique specializations</span>, powering everything we do',
     },
     {
@@ -26,7 +26,7 @@ const NumbersSection = () => {
       description: '<span class="italic font-bold">annual events</span> from conferences to case comps to club nights',
     },
     {
-      number: "22+",
+      number: "70+",
       description: '<span class="italic font-bold">industry connections</span> with industry leaders and peers',
     },
     {
