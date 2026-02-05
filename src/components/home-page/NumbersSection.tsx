@@ -14,7 +14,7 @@ const NumbersSection = () => {
       description: '<span class="italic font-bold">active members</span> from all faculties leveling up their marketing game',
     },
     {
-      number: "40+",
+      number: "50+",
       description: '<span class="italic font-bold">job postings</span> on our member exclusive job portal',
     },
     {
