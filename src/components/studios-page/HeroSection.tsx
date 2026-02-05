@@ -129,7 +129,7 @@ const HeroSection = () => {
         <motion.h3 
           className="md:text-4xl text-2xl text-center text-[#605493] font-black"
           style={{
-            WebkitTextStroke: '1.5px black',
+            WebkitTextStroke: '0.5px black',
           }}
         >
           Where student talent meets real-world marketing

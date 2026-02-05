@@ -36,7 +36,7 @@ const CultureSection = () => {
                 animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                Partners 
+                Culture 
               </motion.div>
               <motion.h2 
                 className="text-5xl md:text-8xl font-black"
