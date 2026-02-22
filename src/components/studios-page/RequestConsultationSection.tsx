@@ -49,7 +49,7 @@ const RequestConsultationSection = () => {
             </div>
             
               <motion.img 
-                src="/image/studios-page/mascot-and-sign.png"
+                src="/image/studios-page/mascot-and-sign.webp"
                 alt="Mascot and Sign"
                 className="md:w-[500px] "
                 initial={{ opacity: 0, scale: 0.9 }}

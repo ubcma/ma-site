@@ -12,7 +12,7 @@ const PartnersSection = () => {
   return (
     <section id="partners" ref={ref}>
       <div className="relative h-[788px]">
-        <img src="/image/home-page/png-bg/partners-bg.png" alt="Partners Background" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/image/home-page/bg-images/partners-bg.webp" alt="Partners Background" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:px-48 px-8 py-20">
           <div className="flex flex-col md:flex-row justify-between gap-8 lg:gap-16 items-start text-white">
             <div className="flex flex-col items-start justify-center">

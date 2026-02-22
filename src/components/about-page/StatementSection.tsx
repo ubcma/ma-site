@@ -11,7 +11,7 @@ const StatementSection = () => {
   return (
     <section id="statement" ref={ref}>
       <div className="relative h-[457px]">
-        <img src="/image/about-page/statement-bg.png" alt="Statement Background" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/image/about-page/statement-bg.webp" alt="Statement Background" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute z-10 h-full flex items-start lg:mx-48 mx-8 ">
           <div className="flex h-full justify-center items-center text-white text-2xl font-semibold max-w-[555px]">
             <motion.div

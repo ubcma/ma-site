@@ -20,7 +20,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/studios-page/star-icon.png"
+          src="/image/studios-page/star-icon.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden -left-20 md:top-10 top-0 md:w-[230px] w-[150px] object-contain z-20"
         >
@@ -33,7 +33,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/urpistd-12 1.png"
+          src="/image/home-page/studio-icons/urpistd-12 1.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden left-0 md:top-30 top-0 md:w-[330px] w-[200px] object-contain z-20 -rotate-12"
         >
@@ -46,7 +46,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/studios-page/star-icon2.png"
+          src="/image/studios-page/star-icon2.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden left-0 md:top-100 top-0 md:w-[230px] w-[150px] object-contain z-20"
         >
@@ -59,7 +59,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/urpistd-12 1.png"
+          src="/image/home-page/studio-icons/urpistd-12 1.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden -left-50 md:top-120 top-0 md:w-[440px] w-[330px] object-contain z-20 rotate-35"
         >
@@ -75,7 +75,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/urpistd-12 3.png"
+          src="/image/home-page/studio-icons/urpistd-12 3.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden -right-25 md:top-8 bottom-0 md:w-[305px] w-[200px] object-contain z-20"
         >
@@ -88,7 +88,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/studios-page/star-icon.png"
+          src="/image/studios-page/star-icon.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden right-10 md:top-50 top-0 md:w-[190px] w-[100px] object-contain z-20"
         >
@@ -101,7 +101,7 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/urpistd-12 3.png"
+          src="/image/home-page/studio-icons/urpistd-12 3.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden -right-30 md:top-90 bottom-0 md:w-[300px] w-[200px] object-contain z-20 -rotate-10"
         >
@@ -114,14 +114,14 @@ const HeroSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/studios-page/star-icon.png"
+          src="/image/studios-page/star-icon.webp"
           alt="Studio Icon"
           className="absolute sm:block hidden -right-50 md:top-130 top-0 md:w-[420px] w-[310px] object-contain z-20 rotate-10"
         >
         </motion.img>
 
         <motion.img
-          src="/image/studios-page/studios-bg.png"
+          src="/image/studios-page/studios-bg.webp"
           alt="Studio Icon"
           className="md:w-[955px]"
         >

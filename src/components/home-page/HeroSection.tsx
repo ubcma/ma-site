@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center top-10"
         style={{
-          backgroundImage: "url('/image/home-page/png-bg/home-bg.jpg')",
+          backgroundImage: "url('/image/home-page/bg-images/home-bg.webp')",
         }}
       />
 
