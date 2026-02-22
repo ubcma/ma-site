@@ -21,7 +21,7 @@ const StudiosSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/urpistd-12 1.png"
+          src="/image/home-page/studio-icons/urpistd-12 1.webp"
           alt="Studio Icon"
           className="absolute -left-30 md:-top-35 top-0 md:w-[470px] w-[300px] object-contain z-20"
         >
@@ -34,7 +34,7 @@ const StudiosSection = () => {
              duration: 0.4,
              scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
          }}
-         src="/image/home-page/studio-icons/subuhd-12 1.png"
+         src="/image/home-page/studio-icons/subuhd-12 1.webp"
          alt="Studio Icon"
          className="absolute -left-30 -bottom-35 lg:w-[550px] w-[400px] object-contain z-20"
         >
@@ -48,7 +48,7 @@ const StudiosSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/asuyausyus-12 1.png"
+          src="/image/home-page/studio-icons/asuyausyus-12 1.webp"
           alt="Studio Icon"
           className="absolute -right-30 -top-30 lg:w-[550px] w-[400px] object-contain z-20"
         >
@@ -61,7 +61,7 @@ const StudiosSection = () => {
               duration: 0.4,
               scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
-          src="/image/home-page/studio-icons/urpistd-12 3.png"
+          src="/image/home-page/studio-icons/urpistd-12 3.webp"
           alt="Studio Icon"
           className="absolute -right-30 md:-bottom-30 bottom-0 md:w-[470px] w-[300px] object-contain z-20"
         >

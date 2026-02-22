@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div
         className="
     absolute inset-0 bg-cover bg-no-repeat top-10 
-    bg-[url('/image/team-page/team-bg.jpg')] 
+    bg-[url('/image/team-page/team-bg.webp')] 
     bg-[position:calc(85%)_center]  
     md:bg-right-center                     
   "
