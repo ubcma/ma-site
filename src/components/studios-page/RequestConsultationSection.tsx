@@ -42,6 +42,7 @@ const RequestConsultationSection = () => {
                 <Button
                   size="lg"
                   className="lg:px-12 lg:py-10 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-[#c41f3a] hover:brightness-90 font-black rounded-[90px]"
+                  onClick={() => window.location.href = "mailto:studios@ubcma.ca"}
                 >
                   REQUEST A CONSULTATION
                 </Button>

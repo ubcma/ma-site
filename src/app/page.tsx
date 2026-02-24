@@ -50,7 +50,6 @@ export default async function Home() {
              ))}
            </Marquee>
        </section>
-       <InboxSection />
 
       {/* Will enable inbox section once api logic for persisting email subscribers is created */}
       {/* <InboxSection /> */}

@@ -65,12 +65,14 @@ const PartnersSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
               >
-                <Button
-                  size="lg"
-                  className="lg:px-12 lg:py-8 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-[#c41f3a] hover:brightness-90 font-bold rounded-[90px]"
-                >
-                  Partnerships Package
-                </Button>
+                <a href="/UBCMA 25-26 Partnership Package.pdf" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    size="lg"
+                    className="lg:px-12 lg:py-8 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-[#c41f3a] hover:brightness-90 font-bold rounded-[90px]"
+                  >
+                    Partnerships Package
+                  </Button>
+                </a>
               </motion.div>
             </div>
           </div>
