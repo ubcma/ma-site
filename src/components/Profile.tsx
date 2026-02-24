@@ -29,7 +29,7 @@ const Profile = ({ name, imageURL, bio, role }: ProfileProps) => {
 
       {/* Hover state: Bio/Description */}
       <div className="absolute inset-0 z-10 flex flex-col justify-center p-5 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="px-4 text-md leading-relaxed line-clamp-6">{bio}</p>
+        <p className="px-4 text-md leading-relaxed">{bio}</p>
       </div>
 
       {/* Gradient overlay - changes on hover */}
