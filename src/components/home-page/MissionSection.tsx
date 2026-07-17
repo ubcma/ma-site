@@ -11,17 +11,17 @@ const MissionSection = () => {
   const cards = [
     {
       title: "educate",
-      image: "/image/home-page/png-bg/educate-bg.png",
+      image: "/image/home-page/bg-images/educate-bg.webp",
       description: 'We equip students with cutting-edge industry knowledge, practical skills, and insights that <span class="itallic font-bold">go beyond the classroom</span>.',
     },
     {
       title: "engage",
-      image: "/image/home-page/png-bg/engage-bg.jpg",
+      image: "/image/home-page/bg-images/engage-bg.webp",
       description: 'We build a tight-knit, supportive community where students can network, collaborate, and grow together through <span class="italic font-bold">meaningful relationships</span>.',
     },
     {
       title: "execute",
-      image: "/image/home-page/png-bg/execute-bg.png",
+      image: "/image/home-page/bg-images/execute-bg.webp",
       description: 'We create opportunities to <span class="italic font-bold">apply learning in real-time</span> through premier conferences, exclusive networking socials, high-stakes case competitions, and hands-on projects that bridge theory and practice.',
     },
   ];

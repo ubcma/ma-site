@@ -26,7 +26,7 @@ const CultureSection = () => {
     </section>
     <section id="culture" ref={ref}>
       <div className="relative h-[791px]">
-        <img src="/image/about-page/culture-bg.png" alt="Partners Background" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/image/about-page/culture-bg.webp" alt="Partners Background" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:px-48 px-8 py-20">
           <div className="flex flex-col md:flex-row justify-between gap-8 lg:gap-16 items-center text-white">
             <div className="flex flex-col items-start justify-center">
@@ -36,7 +36,7 @@ const CultureSection = () => {
                 animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                Partners 
+                Culture 
               </motion.div>
               <motion.h2 
                 className="text-5xl md:text-8xl font-black"

@@ -12,7 +12,7 @@ const PartnersSection = () => {
   return (
     <section id="partners" ref={ref}>
       <div className="relative h-[788px]">
-        <img src="/image/home-page/png-bg/partners-bg.png" alt="Partners Background" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/image/home-page/bg-images/partners-bg.webp" alt="Partners Background" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:px-48 px-8 py-20">
           <div className="flex flex-col md:flex-row justify-between gap-8 lg:gap-16 items-start text-white">
             <div className="flex flex-col items-start justify-center">
@@ -65,12 +65,14 @@ const PartnersSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.6 }}
               >
-                <Button
-                  size="lg"
-                  className="lg:px-12 lg:py-8 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-[#c41f3a] hover:brightness-90 font-bold rounded-[90px]"
-                >
-                  Partnerships Package
-                </Button>
+                <a href="/UBCMA 25-26 Partnership Package.pdf" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    size="lg"
+                    className="lg:px-12 lg:py-8 px-8 py-6 text-white lg:text-3xl text-xl bg-ma-red hover:bg-[#c41f3a] hover:brightness-90 font-bold rounded-[90px]"
+                  >
+                    Partnerships Package
+                  </Button>
+                </a>
               </motion.div>
             </div>
           </div>

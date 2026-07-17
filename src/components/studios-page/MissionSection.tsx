@@ -14,7 +14,7 @@ const MissionSection = () => {
         <div className="space-y-8">
           <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-center">
             <motion.img
-              src="/image/studios-page/blocks.png"
+              src="/image/studios-page/blocks.webp"
               alt="Mascot and Sign"
               className="md:w-[450px] "
               initial={{ opacity: 0, scale: 0.9 }}
@@ -81,7 +81,7 @@ const MissionSection = () => {
             </div>
 
             <motion.img
-              src="/image/studios-page/bookshelf.png"
+              src="/image/studios-page/bookshelf.webp"
               alt="Mascot and Sign"
               className="md:w-[450px] "
               initial={{ opacity: 0, scale: 0.9 }}
@@ -93,7 +93,7 @@ const MissionSection = () => {
           </div>
           <div className="flex flex-col md:flex-row gap-8 lg:gap-16 items-center">
             <motion.img
-              src="/image/studios-page/puzzle.png"
+              src="/image/studios-page/puzzle.webp"
               alt="Mascot and Sign"
               className="md:w-[450px] "
               initial={{ opacity: 0, scale: 0.9 }}

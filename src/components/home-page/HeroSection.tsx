@@ -10,19 +10,19 @@ const HeroSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center top-10"
         style={{
-          backgroundImage: "url('/image/home-page/png-bg/home-bg.png')",
+          backgroundImage: "url('/image/home-page/bg-images/home-bg.webp')",
         }}
       />
 
       <div className="relative z-10 text-left w-full px-8 lg:px-32">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 md:gap-16">
           <motion.h1 
-            className="tracking-tight text-left text-5xl md:text-6xl lg:text-9xl font-black"
+            className="tracking-tight text-left text-5xl md:text-6xl lg:text-[112px] font-black"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            UBC Marketing<br /> Association
+            <span className="whitespace-nowrap">UBC Marketing</span><br /> Association
           </motion.h1>
           
           <div className="flex flex-col items-start md:items-end justify-between mb-4">
@@ -53,9 +53,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="absolute inset-0 z-1 bg-gradient-to-b from-ma-red/0 to-ma-red/90 " />
+      <div className="absolute bottom-0 left-0 right-0 h-1/2 z-1 bg-gradient-to-b from-ma-red/0 to-ma-red/70" />
       {/* <div className="absolute inset-0 z-1 bg-gradient-to-b from-black/30 to-black/50 " /> */}
-      <div className="absolute inset-0 z-0 bg-ma-red/30 backdrop-blur-xl [mask-image:linear-gradient(to_top,black,transparent)]" />
+      <div className="absolute bottom-0 left-0 right-0 h-1/2 z-0 bg-ma-red/70 backdrop-blur-xl [mask-image:linear-gradient(to_top,black,transparent)]" />
     </main>
   );
 };
